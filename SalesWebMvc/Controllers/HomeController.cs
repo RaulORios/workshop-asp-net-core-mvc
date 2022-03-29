@@ -17,7 +17,7 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "First controller and Razor pages test";
 
             return View();
         }
